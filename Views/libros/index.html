@@ -1,0 +1,50 @@
+@model List<TodoMVC.Models.Libro>
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="container">
+
+    <h1>📚 Biblioteca personal</h1>
+
+    <a href="/Libros/Crear">➕ Nuevo libro</a>
+
+    <br><br>
+
+    <!-- 🔵 FILTROS -->
+    <a href="/Libros?filtro=todos">Todos</a> |
+    <a href="/Libros?filtro=leidos">Leídos</a> |
+    <a href="/Libros?filtro=noleidos">No leídos</a>
+
+    <br><br>
+
+    <!-- 📊 TABLE -->
+    <table>
+
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Categoría</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+
+        @foreach (var l in Model)
+        {
+            <tr>
+                <td>@l.Titulo</td>
+                <td>@l.Autor</td>
+                <td>@l.Categoria</td>
+                <td>
+                    @(l.Leido ? "✔ Leído" : "❌ No leído")
+                </td>
+                <td>
+                    <a href="/Libros/Editar/@l.Id">✏ Editar</a> |
+                    <a href="/Libros/Leer/@l.Id">📖 Leer</a> |
+                    <a href="/Libros/Eliminar/@l.Id">🗑 Eliminar</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>

@@ -1,0 +1,30 @@
+@model TodoMVC.Models.Libro
+
+<h1>✏️ Editar libro</h1>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <input name="Titulo" value="@Model.Titulo" />
+    <br><br>
+
+    <input name="Autor" value="@Model.Autor" />
+    <br><br>
+
+    <input name="Categoria" value="@Model.Categoria" />
+    <br><br>
+
+    <label>
+        <input type="checkbox" name="Leido" value="true" />
+        Leído
+    </label>
+
+    <br><br>
+
+    <button type="submit">Actualizar</button>
+</form>

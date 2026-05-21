@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PF_Programacio
+build_property.RootNamespace = PF_Programacio
+build_property.ProjectDir = D:\Users\Alum\Desktop\PF Programacio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\Alum\Desktop\PF Programacio
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/Alum/Desktop/PF Programacio/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Alum/Desktop/PF Programacio/Views/libros/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Alum/Desktop/PF Programacio/Views/libros/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Alum/Desktop/PF Programacio/Views/libros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

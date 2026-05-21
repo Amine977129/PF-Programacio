@@ -1,0 +1,21 @@
+@model TodoMVC.Models.Libro
+
+<h1>➕ Nuevo libro</h1>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<form method="post">
+    <input name="Titulo" placeholder="Título" />
+    <br><br>
+
+    <input name="Autor" placeholder="Autor" />
+    <br><br>
+
+    <input name="Categoria" placeholder="Categoría" />
+    <br><br>
+
+    <button type="submit">Guardar</button>
+</form>
